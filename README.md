@@ -1,6 +1,6 @@
-# Original Monkey Shines 2: Gorilla Warfare Source Code
-This branch contains the original Mac OS Classic "Monkey Shines 2: Gorilla Warfare" source code. This was originally a CodeWarrior project. At the moment, this code isn't connected well in a way where it can easily be buildable even on a Mac. This branch is mainly intended for reference as opposed to building, and to keep a record of the original implementation of Gorilla Warfare.
+# Monkey Shines 2: Gorilla Warfare
+This project is intended to both preserve and hopefully one day port Gorilla Warfare to modern systems. For more information on this game as well as a download link to the **original mac release**, please see [Monkey Shines 2: Gorilla Warfare on The Macintosh Garden](https://macintoshgarden.org/games/monkey-shines-2-gorilla-warfare).
 
-I am not opposed to adding things that would help it to at least build, like CodeWarrior project files and the like, so that one could clone the source and copy it to a Mac and build it there (although I am not aware of any Git clients that run on Mac OS Classic.)
-
-If you wanted to build this, you would likely need a classic Mac dev enviroment with CodeWarrior, and include the Macintosh Toolbox libraries.
+## Branch Information
+- `master`: development branch, so any work to make this run on a modern system, whether it be inclusion of modern libraries, changes to code style, changes to language, anything of that nature, would be put here.
+- `mac_classic`: historical branch. Always contains the original unmodified C sources and headers for the original game.
