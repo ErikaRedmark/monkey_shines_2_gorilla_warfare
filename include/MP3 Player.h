@@ -1,0 +1,1 @@
+/*	Author:		Pierre-Olivier Latour				pol@french-touch.net				http://www.french-touch.net/CodeWareHouse					[Check the .cp files for complete info]*/#ifndef __MP3_PLAYER__#define __MP3_PLAYER__//VARIABLES:extern SndChannelPtr					MP3Channel;//PROTOTYPES:OSErr MP3Player_Start(FSSpec* fileSpec);OSErr MP3Player_Stop();void MP3Player_Volume(short volume);#endif
